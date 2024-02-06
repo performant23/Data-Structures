@@ -1,0 +1,31 @@
+Random Array: 74, 55, 2, 61, 51, 70, 70, 53, 47, 50, 58, 23, 28, 6, 11
+Inorder: 74 
+Inorder: 55 74 
+R
+Inorder: 2 55 74 
+Inorder: 2 55 61 74 
+Inorder: 2 51 55 61 74 
+L
+R
+Inorder: 2 51 55 61 70 74 
+Inorder: 2 51 55 61 70 74 
+L
+Inorder: 2 51 53 55 61 70 74 
+Inorder: 2 47 51 53 55 61 70 74 
+L
+Inorder: 2 47 50 51 53 55 61 70 74 
+Inorder: 2 47 50 51 53 55 58 61 70 74 
+R
+Inorder: 2 23 47 50 51 53 55 58 61 70 74 
+L
+Inorder: 2 23 28 47 50 51 53 55 58 61 70 74 
+Inorder: 2 6 23 28 47 50 51 53 55 58 61 70 74 
+L
+Inorder: 2 6 11 23 28 47 50 51 53 55 58 61 70 74 
+The 4th smallest element is: 11
+2 6 23 28 47 50 51 53 55 58 61 70 74 
+The 5th smallest element is: 28
+R
+2 6 23 47 50 51 53 55 58 61 70 74 
+The 6th smallest element is: 50
+2 6 23 47 50 51 53 55 58 61 70 74 

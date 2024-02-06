@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "1a",
+      "setup": "cd q1; make clean; make",
+      "run": "cd q1; ./asmnt4 63 20",
+      "input": "",
+      "output": "Part A:\r\n74 -> 55 -> 2 -> 61 -> 51 -> 70 -> 70 -> 53 -> 47 -> 50 -> 58 -> 23 -> 28 -> 6 -> 11 -> 55 -> 77 -> 59 -> 51 -> 99 -> \r\n74 -> 55 -> 2 -> 61 -> 70 -> 47 -> 6 -> ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "1b",
+      "setup": "cd q1; make clean; make",
+      "run": "cd q1; ./asmnt4 63 20",
+      "input": "",
+      "output": "Part B:\r\n74 -> 55 -> 2 -> 61 -> 51 -> 70 -> 70 -> 53 -> 47 -> 50 -> 58 -> 23 -> 28 -> 6 -> 11 -> 55 -> 77 -> 59 -> 51 -> 99 -> \r\n74 -> 2 -> 51 -> 70 -> 47 -> 58 -> 28 -> 11 -> 77 -> 51 -> \r\n74 -> 61 -> 70 -> 50 -> 28 -> 55 -> 51 -> \r\n74 -> 51 -> 47 -> 28 -> 77 -> ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "1c",
+      "setup": "cd q1; make clean; make",
+      "run": "cd q1; ./asmnt4 63 20",
+      "input": "",
+      "output": "Part C:\r\n51 -> 70 -> 53 -> 50 -> 58 -> 23 -> 28 -> 11 -> 55 -> 77 -> 59 -> 51 -> 99 -> \r\n51 -> 53 -> 58 -> 28 -> 55 -> 59 -> 99 -> \r\n51 -> 50 -> 28 -> 77 -> 99 -> \r\n51 -> 58 -> 55 -> 99 -> ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "2a",
+      "setup": "cd q2; make clean; make",
+      "run": "cd q2; ./asmnt4 63 15",
+      "input": "",
+      "output": "Inorder: 74 \r\nInorder: 55 74 \r\nR\r\nInorder: 2 55 74 \r\nInorder: 2 55 61 74 \r\nInorder: 2 51 55 61 74 \r\nL\r\nR\r\nInorder: 2 51 55 61 70 74 \r\nInorder: 2 51 55 61 70 74 \r\nL\r\nInorder: 2 51 53 55 61 70 74 \r\nInorder: 2 47 51 53 55 61 70 74 \r\nL\r\nInorder: 2 47 50 51 53 55 61 70 74 \r\nInorder: 2 47 50 51 53 55 58 61 70 74 \r\nR\r\nInorder: 2 23 47 50 51 53 55 58 61 70 74 \r\nL\r\nInorder: 2 23 28 47 50 51 53 55 58 61 70 74 \r\nInorder: 2 6 23 28 47 50 51 53 55 58 61 70 74 \r\nL\r\nInorder: 2 6 11 23 28 47 50 51 53 55 58 61 70 74 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "2b",
+      "setup": "cd q2; make clean; make",
+      "run": "cd q2; ./asmnt4 63 15",
+      "input": "",
+      "output": "The 4th smallest element is: 23\r\n2 6 11 28 47 50 51 53 55 58 61 70 74 \r\nThe 5th smallest element is: 47\r\nR\r\n2 6 11 28 50 51 53 55 58 61 70 74 \r\nThe 6th smallest element is: 51\r\n2 6 11 28 50 53 55 58 61 70 74 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
